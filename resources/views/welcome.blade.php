@@ -12,9 +12,9 @@
 
         <link rel="shortcut icon" type="image/x-icon" href="{{ asset('storage/favicon.ico') }}">
 
-        <title>Джин для пошуку роботи (/◔ ◡ ◔)/</title>
+        <title>{{ __('Джин для пошуку роботи (/◔ ◡ ◔)/') }}</title>
 
-        @vite(['resources/css/app.css', 'resources/js/app.js', 'resources/js/welcome/page.js'])
+        @vite(['resources/css/app.css', 'resources/js/welcome/page.js'])
     </head>
     <body class="antialiased">
         <header class="text-white bg-[#0d5bcb]">
